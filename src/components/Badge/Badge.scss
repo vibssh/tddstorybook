@@ -1,0 +1,42 @@
+.badge {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  border-radius: 20px;
+  background: #333;
+  color: #fff;
+  font-size: 14px;
+
+  &.primary {
+    background: #007bff
+  }
+
+  &.secondary {
+    background: #6c757d;
+  }
+
+  &.success {
+    background: #28a745;
+  }
+
+  &.danger {
+    background: #dc3545;
+  }
+
+  &.warning {
+    background: #ffc107;
+  }
+
+  &.info {
+    background: #17a2b8;
+  }
+
+  &.light {
+    background: #f8f9fa;
+    color: #333;
+  }
+
+  &.dark {
+    background: #343a40;
+    color: #fff;
+  }
+}

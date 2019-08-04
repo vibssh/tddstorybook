@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BreadCrumb It should render Breadcrumb should not render anchor link if breadcrumb is active 1`] = `
+"<nav aria-label=\\"breadcrumb\\">
+  <ol className=\\"breadcrumb\\">
+    <li className=\\"breadcrumb-list active\\">
+      Home
+    </li>
+    <li className=\\"breadcrumb-list \\">
+      <a href=\\"#about\\" className=\\"breadcrumb-list-link\\">
+        About
+      </a>
+    </li>
+  </ol>
+</nav>"
+`;

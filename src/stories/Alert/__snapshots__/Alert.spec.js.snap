@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alert Should render Default Alert 1`] = `
+"<div className=\\"alert \\" role=\\"alert\\">
+  It should render Default Alert
+</div>"
+`;
+
+exports[`Alert Should render Primary Alert 1`] = `
+"<div className=\\"alert primary\\" role=\\"alert\\">
+  It should render Primary Alert
+</div>"
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Badge should render default badge should have a default badge  1`] = `
+"<div className=\\"badge \\">
+  Default Badge
+</div>"
+`;
+
+exports[`Badge should render primary badge should have a primary badge 1`] = `
+"<div className=\\"badge primary\\">
+  Primary Badge
+</div>"
+`;

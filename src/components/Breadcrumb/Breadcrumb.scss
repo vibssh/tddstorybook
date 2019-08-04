@@ -1,0 +1,41 @@
+//Local variable
+$divider: '/';
+$divider-color: #ddd;
+$breadcrumb-color: #007bff;
+$breadcrumb-active-color: #6c757d;
+
+.breadcrumb {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  &-list {
+    display: inline-block;
+    padding: 5px;
+    padding-right: 0;
+    color: $breadcrumb-active-color;
+
+    &:after {
+      content: $divider;
+      display: inline-block;
+      padding-left: 5px;
+      color: $divider-color;
+    }
+
+    &:last-child {
+      &:after {
+        display: none;
+      }
+    }
+  }
+
+  &-list-link {
+    width: 100%;
+    color: $breadcrumb-color;
+    text-decoration: none;
+
+    &.active {
+      color: $breadcrumb-active-color;
+    }
+  }
+}

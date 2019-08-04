@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Primary Button should render a Primary button 1`] = `
+"<Fragment>
+  <button type=\\"button\\" className=\\"btn primary  \\">
+     
+    Primary Button
+     
+  </button>
+</Fragment>"
+`;
+
+exports[`Button should render a default button 1`] = `
+"<Fragment>
+  <button type=\\"button\\" className=\\"btn   \\">
+    Default Button
+  </button>
+</Fragment>"
+`;
